@@ -293,7 +293,7 @@ const dataBacktests = [
     topic: "Biographiearbeit",
     question: "Was ist ein häufiges Missverständnis bei Biographiearbeit?",
     answer:
-      "Dass man Bewohner direkt über ihre Vergangenheit ausfragen soll – richtige Biographiearbeit ist behutsam, freiwillig und grenzt keine Traumata an.",
+      "Dass man Bewohner direkt über ihre Vergangenheit ausfragen soll – richtige Biographiearbeit ist behutsam, freiwillig und berührt keine Traumata ungeschützt.",
     source: "02 Missverständnis bei falsch verstandener Biographiearbeit",
   },
   {
