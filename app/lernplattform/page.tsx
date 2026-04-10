@@ -47,6 +47,31 @@ const pdfSources = {
     "Text - Medizinischer Thromboseprophylaxestrumpf",
   ],
   fever: ["Fieber"],
+  biography: [
+    "02 Missverständnis bei falsch verstandener Biographiearbeit",
+    "03. Auszug Buch-Pflegefachassistenz",
+    "03a Biographie vs. Biographiearbeit",
+    "03b Lebenslauf vs. Biographie Zusammenfassung",
+    "05a Themenschwerpunkte der Biographiearbeit",
+    "05b Methoden und Ziele der Biografiearbeit",
+  ],
+  kitwood: [
+    "06. Bedürfnisblume Kitwood",
+    "07 Text zur Kitwood Blume",
+  ],
+  validation: [
+    "10 Validation nach Nicole Richard",
+    "11 Validation nach Nicole Richard (Fortsetzung)",
+  ],
+  aging: [
+    "01. Fallbeispiel 7C Alt werden ist nichts für Feiglinge",
+  ],
+  delegation: [
+    "Delegation",
+  ],
+  painManagement: [
+    "PAP LP Schmerzmanagement",
+  ],
 }
 
 const pdfCatalog = Array.from(new Set(Object.values(pdfSources).flat()))
@@ -94,6 +119,73 @@ const learningFields = [
       "Maßnahmen: Vitalzeichen, Wadenwickel, Waschungen, Flüssigkeit.",
     ],
     documents: pdfSources.fever,
+  },
+  {
+    title: "Biographiearbeit",
+    subtitle: "Lebensgeschichte verstehen & personenzentriert pflegen",
+    goals: [
+      "Biographie vs. Lebenslauf: Subjektive Erfahrungen vs. chronologische Daten unterscheiden.",
+      "Methoden der Biographiearbeit: Gespräch, Beobachtung, Angehörige, Erinnerungsanker.",
+      "Missverständnisse vermeiden: Behutsam vorgehen, keine Grenzüberschreitungen.",
+      "Themenschwerpunkte: Kindheit, Beruf, Familie, Gewohnheiten, Rituale, Ängste.",
+      "Ziel: Individuelle Pflege, Würde und Identität bewahren.",
+    ],
+    documents: pdfSources.biography,
+  },
+  {
+    title: "Personenzentrierte Pflege (Kitwood)",
+    subtitle: "Bedürfnisblume & positive Personenarbeit",
+    goals: [
+      "Kitwood-Modell: 5 psychische Grundbedürfnisse plus zentrales Bedürfnis nach Liebe.",
+      "Bedürfnisblume: Trost, Bindung, Einbeziehung, Beschäftigung, Identität.",
+      "Positive Personenarbeit vs. Maligne Sozialpsychologie erkennen und anwenden.",
+      "Personenzentrierte Haltung: Den Menschen hinter der Demenz sehen.",
+    ],
+    documents: pdfSources.kitwood,
+  },
+  {
+    title: "Validation nach Nicole Richard",
+    subtitle: "Integrative Validation bei Demenz",
+    goals: [
+      "Grundprinzip: Gefühle und Antriebe validieren, nicht korrigieren.",
+      "Schritte der IVA: Wahrnehmen, Gefühl benennen, validieren, allgemeine Worte nutzen.",
+      "Validation vs. Realitätsorientierung: Subjektive Wirklichkeit akzeptieren.",
+      "Gefühle und Antriebe als zentrale Ressourcen bei Demenz erkennen.",
+    ],
+    documents: pdfSources.validation,
+  },
+  {
+    title: "Altern & Herausforderungen",
+    subtitle: "Alt werden – Würde und Lebensqualität erhalten",
+    goals: [
+      "Herausforderungen im Alter: Multimorbidität, Sturzgefahr, Einsamkeit.",
+      "Pflegerische Haltung: Ressourcen fördern, Selbstbestimmung unterstützen.",
+      "Biografieorientierte Pflege als Grundlage für Würde im Alter.",
+    ],
+    documents: pdfSources.aging,
+  },
+  {
+    title: "Delegation in der Pflege",
+    subtitle: "Verantwortung, Recht & Praxis",
+    goals: [
+      "Anordnungs- vs. Durchführungsverantwortung unterscheiden.",
+      "Delegierbare und nicht delegierbare Tätigkeiten für die Pflegefachassistenz kennen.",
+      "5 Ws der Delegation: Wer, Was, An wen, Wann, Rückmeldung.",
+      "Rechtliche Aspekte: Übernahmeverschulden, Haftung, Rücksprache.",
+    ],
+    documents: pdfSources.delegation,
+  },
+  {
+    title: "Schmerzmanagement",
+    subtitle: "Schmerzerfassung, Therapie & pflegerische Interventionen",
+    goals: [
+      "Schmerzarten: akut, chronisch, nozizeptiv, neuropathisch unterscheiden.",
+      "Assessment: NRS, VAS, VRS, Wong-Baker, BESD-Skala kennen und anwenden.",
+      "WHO-Stufenschema: Stufe 1–3, Nicht-Opioid, schwache und starke Opioide.",
+      "Nicht-medikamentöse Maßnahmen: Kälte, Wärme, TENS, Entspannung.",
+      "6-R-Regel der Medikamentengabe sicher beherrschen.",
+    ],
+    documents: pdfSources.painManagement,
   },
 ]
 
@@ -190,6 +282,69 @@ const dataBacktests = [
       "5 am Tag, Vollkorn, rund 1,5 Liter Wasser/Tag, Zucker sparen und max. 300–600 g Fleisch/Woche.",
     source: "2. Die 10 Regeln der DGE",
   },
+  {
+    topic: "Biographiearbeit",
+    question: "Was unterscheidet Biographie von Biographiearbeit?",
+    answer:
+      "Biographie ist die Lebensgeschichte; Biographiearbeit ist das systematische Erheben und Nutzen dieser Informationen für die Pflegeplanung.",
+    source: "03a Biographie vs. Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    question: "Was ist ein häufiges Missverständnis bei Biographiearbeit?",
+    answer:
+      "Dass man Bewohner direkt über ihre Vergangenheit ausfragen soll – richtige Biographiearbeit ist behutsam, freiwillig und grenzt keine Traumata an.",
+    source: "02 Missverständnis bei falsch verstandener Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    question: "Nenne drei Themenschwerpunkte der Biographiearbeit.",
+    answer:
+      "Kindheit und Jugend, Gewohnheiten und Rituale, prägende Ereignisse (z.B. Krieg, Verluste).",
+    source: "05a Themenschwerpunkte der Biographiearbeit",
+  },
+  {
+    topic: "Kitwood",
+    question: "Welche fünf Grundbedürfnisse umfasst die Kitwood-Blume?",
+    answer:
+      "Trost, Bindung, Einbeziehung, Beschäftigung und Identität – im Zentrum steht Liebe.",
+    source: "06. Bedürfnisblume Kitwood",
+  },
+  {
+    topic: "Kitwood",
+    question: "Was versteht Kitwood unter Maligner Sozialpsychologie?",
+    answer:
+      "Negative Interaktionsformen wie Infantilisieren, Etikettieren, Entmächtigen, Ignorieren oder Einschüchtern von Menschen mit Demenz.",
+    source: "07 Text zur Kitwood Blume",
+  },
+  {
+    topic: "Validation",
+    question: "Was ist das Grundprinzip der Integrativen Validation nach Nicole Richard?",
+    answer:
+      "Gefühle und Antriebe des Menschen mit Demenz werden für gültig erklärt (validiert) – nicht korrigiert oder bewertet.",
+    source: "10 Validation nach Nicole Richard",
+  },
+  {
+    topic: "Validation",
+    question: "Wie unterscheidet sich Validation von Realitätsorientierung?",
+    answer:
+      "ROT korrigiert und konfrontiert, Validation akzeptiert die subjektive Wirklichkeit und bestätigt die darin enthaltenen Gefühle.",
+    source: "11 Validation nach Nicole Richard (Fortsetzung)",
+  },
+  {
+    topic: "Delegation",
+    question: "Was bedeutet Anordnungs- vs. Durchführungsverantwortung?",
+    answer:
+      "Anordnungsverantwortung liegt beim Delegierenden (z.B. Arzt), Durchführungsverantwortung beim Ausführenden (z.B. Pflegefachassistenz).",
+    source: "Delegation",
+  },
+  {
+    topic: "Schmerzmanagement",
+    question: "Was besagt die 6-R-Regel der Medikamentengabe?",
+    answer:
+      "Richtiger Patient, richtiges Medikament, richtige Dosis, richtiger Zeitpunkt, richtige Applikationsform, richtige Dokumentation.",
+    source: "PAP LP Schmerzmanagement",
+  },
 ]
 
 const flashcards = [
@@ -239,6 +394,46 @@ const flashcards = [
     tip: "Temperatur und Vitalzeichen dokumentieren.",
     source: "Fieber",
   },
+  {
+    title: "Kitwood-Bedürfnisblume",
+    question: "Welche 5 Bedürfnisse beschreibt die Kitwood-Blume?",
+    answer:
+      "Trost, Bindung, Einbeziehung, Beschäftigung und Identität – im Zentrum steht Liebe.",
+    tip: "Merke: T-B-E-B-I, alles um Liebe herum.",
+    source: "06. Bedürfnisblume Kitwood",
+  },
+  {
+    title: "Biographiearbeit",
+    question: "Was ist der Unterschied zwischen Lebenslauf und Biographie?",
+    answer:
+      "Der Lebenslauf listet chronologische Daten; die Biographie umfasst subjektive Erfahrungen, Werte und Bedeutungen.",
+    tip: "Für die Pflege ist die Biographie relevanter als der Lebenslauf.",
+    source: "03b Lebenslauf vs. Biographie Zusammenfassung",
+  },
+  {
+    title: "Validation (IVA)",
+    question: "Was ist das Ziel der Integrativen Validation?",
+    answer:
+      "Gefühle und Antriebe des Menschen mit Demenz werden für gültig erklärt – nicht korrigiert.",
+    tip: "Nicht in die Realität zurückholen, sondern Gefühle bestätigen.",
+    source: "10 Validation nach Nicole Richard",
+  },
+  {
+    title: "Delegation",
+    question: "Wer trägt die Durchführungsverantwortung bei Delegation?",
+    answer:
+      "Die ausführende Person (z.B. Pflegefachassistenz) trägt die Durchführungsverantwortung.",
+    tip: "Anordnungsverantwortung = Delegierender, Durchführungsverantwortung = Ausführender.",
+    source: "Delegation",
+  },
+  {
+    title: "Schmerzskalen",
+    question: "Welche Schmerzskala nutzt man bei Menschen mit Demenz?",
+    answer:
+      "Die BESD-Skala (Beurteilung von Schmerzen bei Demenz) – eine Fremdeinschätzung durch Beobachtung.",
+    tip: "Bei kognitiven Einschränkungen: BESD oder Wong-Baker Gesichterskala.",
+    source: "PAP LP Schmerzmanagement",
+  },
 ]
 
 const quizItems = [
@@ -282,6 +477,66 @@ const quizItems = [
     answer: "C",
     explanation: "Fieber beginnt ab 38 °C Körpertemperatur.",
   },
+  {
+    title: "Kitwood-Quiz",
+    question: "Welches Bedürfnis steht im Zentrum der Kitwood-Blume?",
+    options: ["Trost", "Identität", "Liebe", "Beschäftigung"],
+    answer: "C",
+    explanation:
+      "Im Zentrum der Bedürfnisblume nach Kitwood steht das Bedürfnis nach Liebe (Love).",
+  },
+  {
+    title: "Biographiearbeit-Quiz",
+    question: "Welche Methode gehört zur Biographiearbeit?",
+    options: [
+      "Standardisierter Intelligenztest",
+      "Erinnerungsanker wie Fotos und Musik",
+      "Schriftliche Klausurabfrage",
+      "Ausschließlich Angehörigenbefragung",
+    ],
+    answer: "B",
+    explanation:
+      "Fotos, Musik und vertraute Gegenstände dienen als Erinnerungsanker in der Biographiearbeit.",
+  },
+  {
+    title: "Validation-Quiz",
+    question: "Was tut man bei der Integrativen Validation?",
+    options: [
+      "Den Menschen mit Demenz in die Realität zurückholen",
+      "Die Gefühle des Betroffenen korrigieren",
+      "Die Gefühle wertschätzend spiegeln und bestätigen",
+      "Nur Ja/Nein-Fragen stellen",
+    ],
+    answer: "C",
+    explanation:
+      "Bei der IVA werden Gefühle und Antriebe wertschätzend gespiegelt und für gültig erklärt.",
+  },
+  {
+    title: "Delegation-Quiz",
+    question: "Was darf die Pflegefachassistenz NICHT eigenständig entscheiden?",
+    options: [
+      "Vitalzeichenkontrolle",
+      "Einfacher Verbandswechsel",
+      "Pflegeprozessplanung und Bedarfsmedikation",
+      "BZ-Messung nach Anordnung",
+    ],
+    answer: "C",
+    explanation:
+      "Pflegeprozessplanung, Ersteinschätzung und eigenständige Bedarfsmedikation sind nicht delegierbar.",
+  },
+  {
+    title: "Schmerzmanagement-Quiz",
+    question: "Was beschreibt das WHO-Stufenschema?",
+    options: [
+      "Die Einteilung von Wundstadien",
+      "Die stufenweise medikamentöse Schmerztherapie",
+      "Die Phasen der Wundheilung",
+      "Die Fieberphasen bei Infektion",
+    ],
+    answer: "B",
+    explanation:
+      "Das WHO-Stufenschema beschreibt Stufe 1 (Nicht-Opioide), Stufe 2 (schwache Opioide) und Stufe 3 (starke Opioide).",
+  },
 ]
 
 const quickQuestions = [
@@ -302,6 +557,31 @@ const quickQuestions = [
   {
     question: "Was ist die erste Maßnahme bei Verdacht auf Thrombose?",
     answer: "Arzt informieren und Bettruhe einhalten.",
+  },
+  {
+    question: "Welche 5 Bedürfnisse umfasst die Kitwood-Blume?",
+    answer:
+      "Trost, Bindung, Einbeziehung, Beschäftigung und Identität – im Zentrum steht Liebe.",
+  },
+  {
+    question: "Was ist der Unterschied zwischen Biographie und Lebenslauf?",
+    answer:
+      "Der Lebenslauf listet Daten chronologisch auf; die Biographie umfasst subjektive Erfahrungen und Bedeutungen.",
+  },
+  {
+    question: "Was bedeutet Validation bei Demenz?",
+    answer:
+      "Die Gefühle und Antriebe des Betroffenen werden für gültig erklärt und wertschätzend gespiegelt – nicht korrigiert.",
+  },
+  {
+    question: "Wer trägt die Durchführungsverantwortung bei delegierten Tätigkeiten?",
+    answer:
+      "Die ausführende Person (z.B. Pflegefachassistenz) – die Anordnungsverantwortung liegt beim Delegierenden.",
+  },
+  {
+    question: "Welche Schmerzskala eignet sich für Menschen mit Demenz?",
+    answer:
+      "Die BESD-Skala (Beurteilung von Schmerzen bei Demenz) – basierend auf Fremdbeobachtung von Atmung, Mimik, Körpersprache.",
   },
 ]
 

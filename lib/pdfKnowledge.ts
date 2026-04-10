@@ -315,6 +315,155 @@ export const pdfKnowledge: KnowledgeEntry[] = [
     keywords: ["Fallbeispiel", "Winterhaus", "Pflegeplanung", "Mobilisation"],
     source: "LS 4C Herr Winterhaus (Fallbeispiel)",
   },
+  // ── Fallbeispiel Altern ────────────────────────────────────
+  {
+    topic: "Altern",
+    subtopic: "Fallbeispiel 7C – Alt werden ist nichts für Feiglinge",
+    content:
+      "Das Fallbeispiel 7C thematisiert die Herausforderungen des Alterns. Alt werden erfordert Mut und Anpassungsfähigkeit – physische Einschränkungen, Verlust von Selbstständigkeit und soziale Veränderungen müssen bewältigt werden. Die Pflegefachassistenz unterstützt ältere Menschen dabei, Würde und Lebensqualität zu erhalten. Zentrale Aspekte: Umgang mit Multimorbidität, Sturzprophylaxe, Förderung der Selbstständigkeit, psychosoziale Betreuung und biografieorientierte Pflege.",
+    keywords: ["Altern", "Fallbeispiel", "Würde", "Lebensqualität", "Multimorbidität", "Selbstständigkeit"],
+    source: "01. Fallbeispiel 7C Alt werden ist nichts für Feiglinge",
+  },
+  {
+    topic: "Altern",
+    subtopic: "Herausforderungen im Alter",
+    content:
+      "Im Alter treten häufig mehrere Erkrankungen gleichzeitig auf (Multimorbidität). Typische Herausforderungen: eingeschränkte Mobilität, Sturzgefahr, sensorische Einbußen (Sehen, Hören), kognitive Veränderungen, Einsamkeit und sozialer Rückzug, Verlust des Lebenspartners, Angst vor Pflegebedürftigkeit. Pflegerische Haltung: Respekt vor der Lebensgeschichte, Aktivierung statt Übernahme, Ressourcen fördern, Selbstbestimmung unterstützen.",
+    keywords: ["Multimorbidität", "Sturzgefahr", "Einsamkeit", "Ressourcen", "Selbstbestimmung"],
+    source: "01. Fallbeispiel 7C Alt werden ist nichts für Feiglinge",
+  },
+  // ── Biographiearbeit ───────────────────────────────────────
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Definition und Abgrenzung",
+    content:
+      "Biographie ist die Lebensgeschichte eines Menschen – alle Erfahrungen, Erlebnisse und Prägungen. Biographiearbeit ist ein pflegerisches Konzept, bei dem die Lebensgeschichte systematisch erhoben und für die individuelle Pflegeplanung genutzt wird. Wichtig: Biographiearbeit ist nicht identisch mit dem Lebenslauf (chronologische Auflistung von Daten), sondern geht tiefer – sie erfasst Gewohnheiten, Vorlieben, Ängste, prägende Ereignisse und Werte.",
+    keywords: ["Biographie", "Biographiearbeit", "Lebensgeschichte", "Pflegeplanung", "Gewohnheiten"],
+    source: "03a Biographie vs. Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Lebenslauf vs. Biographie",
+    content:
+      "Der Lebenslauf listet chronologisch äußere Daten auf: Geburt, Schule, Beruf, Heirat, Kinder usw. Die Biographie hingegen umfasst die subjektive Lebenserfahrung: Wie hat der Mensch Ereignisse erlebt? Welche Bedeutung hatten sie? Welche Werte und Überzeugungen sind daraus entstanden? Für die Pflege ist die Biographie relevanter als der Lebenslauf, da sie das Verständnis für Verhaltensweisen und Bedürfnisse ermöglicht.",
+    keywords: ["Lebenslauf", "Biographie", "subjektiv", "Werte", "Bedeutung"],
+    source: "03b Lebenslauf vs. Biographie Zusammenfassung",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Missverständnis bei Biographiearbeit",
+    content:
+      "Häufiges Missverständnis: Biographiearbeit bedeutet nicht, Bewohner über ihre Vergangenheit auszufragen oder einen Lebenslauf zu erstellen. Falsch verstandene Biographiearbeit kann grenzverletzend sein, wenn Fragen zu direkt gestellt werden oder traumatische Erlebnisse ungeschützt angesprochen werden. Richtige Biographiearbeit: behutsam, freiwillig, im Gespräch mit Angehörigen ergänzen, Beobachtungen nutzen, Informationen vertraulich behandeln und in die Pflegeplanung integrieren.",
+    keywords: ["Missverständnis", "Grenzverletzung", "behutsam", "freiwillig", "Trauma"],
+    source: "02 Missverständnis bei falsch verstandener Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Themenschwerpunkte",
+    content:
+      "Themenschwerpunkte der Biographiearbeit: Kindheit und Jugend (Aufwachsen, Familie, Schule), Berufsleben (Tätigkeit, Kollegen, Erfolge), Familie (Partner, Kinder, Enkel), Wohnsituation (Heimat, Umzüge), Gewohnheiten und Rituale (Tagesablauf, Essen, Schlafen), Hobbys und Interessen, religiöse/spirituelle Prägung, prägende Ereignisse (Krieg, Flucht, Verluste), Ängste und Wünsche. Diese Informationen helfen, die Pflege individuell zu gestalten.",
+    keywords: ["Themenschwerpunkte", "Kindheit", "Berufsleben", "Gewohnheiten", "Rituale", "Interessen"],
+    source: "05a Themenschwerpunkte der Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Methoden und Ziele",
+    content:
+      "Methoden der Biographiearbeit: Biographisches Gespräch (offene, erzählgenerierende Fragen), Beobachtung von Verhaltensweisen und Vorlieben, Einbeziehen von Angehörigen, Nutzung von Fotos, Musik und Gegenständen als Erinnerungsanker, Biographiebogen (strukturierter Fragebogen). Ziele: Individuelle Pflege ermöglichen, Verständnis für Verhaltensweisen entwickeln, Wohlbefinden steigern, Würde und Identität bewahren, Beziehung zwischen Pflegenden und Bewohner stärken, personenzentrierte Pflege umsetzen.",
+    keywords: ["Methoden", "Ziele", "Biographiebogen", "Erinnerungsanker", "personenzentriert", "Würde"],
+    source: "05b Methoden und Ziele der Biografiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Pflegefachassistenz und Biographiearbeit",
+    content:
+      "In der Pflegefachassistenz ist Biographiearbeit ein zentrales Werkzeug für die personenzentrierte Pflege. Sie hilft dabei, den Tagesablauf an die Gewohnheiten des Bewohners anzupassen (z.B. Aufstehzeit, Essensvorlieben, Schlafrituale). Bei Menschen mit Demenz ist Biographiearbeit besonders wichtig, da vertraute Reize (Musik, Düfte, Bilder) Orientierung und Wohlbefinden fördern können. Die Pflegefachassistenz dokumentiert biographische Informationen und berücksichtigt sie in der täglichen Pflege.",
+    keywords: ["Pflegefachassistenz", "Tagesablauf", "Demenz", "Orientierung", "Dokumentation"],
+    source: "03. Auszug Buch-Pflegefachassistenz",
+  },
+  // ── Kitwood / Personenzentrierte Pflege ────────────────────
+  {
+    topic: "Personenzentrierte Pflege",
+    subtopic: "Bedürfnisblume nach Kitwood",
+    content:
+      "Tom Kitwood entwickelte das Modell der Bedürfnisblume für Menschen mit Demenz. Im Zentrum steht das Bedürfnis nach Liebe (Love), umgeben von fünf psychischen Grundbedürfnissen: 1. Trost (Comfort) – Nähe, Beruhigung, Schmerzlinderung, 2. Bindung (Attachment) – Sicherheit durch vertraute Beziehungen, 3. Einbeziehung (Inclusion) – Dazugehören, Teilhabe am sozialen Leben, 4. Beschäftigung (Occupation) – Sinnvolle Tätigkeit, Kompetenz erleben, 5. Identität (Identity) – Wissen, wer man ist, Kontinuität der Lebensgeschichte. Alle Bedürfnisse sind gleichwertig und müssen in der Pflege berücksichtigt werden.",
+    keywords: ["Kitwood", "Bedürfnisblume", "Demenz", "Liebe", "Trost", "Bindung", "Einbeziehung", "Beschäftigung", "Identität"],
+    source: "06. Bedürfnisblume Kitwood",
+  },
+  {
+    topic: "Personenzentrierte Pflege",
+    subtopic: "Kitwood Blume – Pflegerische Umsetzung",
+    content:
+      "Die Kitwood-Blume in der Pflegepraxis: Trost geben durch Berührung, warme Worte, Schmerzlinderung. Bindung fördern durch Bezugspflege, vertraute Gesichter, regelmäßige Abläufe. Einbeziehung ermöglichen durch gemeinsame Aktivitäten, Mahlzeiten in Gemeinschaft, Gespräche. Beschäftigung anbieten durch bekannte Tätigkeiten (Kochen, Gartenarbeit, Singen), angepasst an Fähigkeiten. Identität bewahren durch Biographiearbeit, persönliche Gegenstände, Ansprache mit Namen. Die personenzentrierte Haltung nach Kitwood fordert: Den Menschen hinter der Demenz sehen, Wohlbefinden und Personsein in den Mittelpunkt stellen.",
+    keywords: ["Pflegepraxis", "Bezugspflege", "Wohlbefinden", "Personsein", "personenzentriert", "Demenz"],
+    source: "07 Text zur Kitwood Blume",
+  },
+  {
+    topic: "Personenzentrierte Pflege",
+    subtopic: "Positive Personenarbeit (Kitwood)",
+    content:
+      "Kitwood beschreibt positive Interaktionsformen (Positive Personenarbeit): Anerkennen, Verhandeln, Zusammenarbeiten, Spielen, Feiern, Entspannung ermöglichen, Validation anwenden, Tempo anpassen, Festhalten (im Sinne von Sicherheit geben). Demgegenüber stehen negative Interaktionsformen (Maligne Sozialpsychologie): Infantilisieren, Etikettieren, Entmächtigen, Einschüchtern, Überholen (zu schnell), Ignorieren, Zwingen. Pflegende sollen negative Interaktionen erkennen und vermeiden, positive bewusst einsetzen.",
+    keywords: ["Positive Personenarbeit", "Maligne Sozialpsychologie", "Anerkennen", "Infantilisieren", "Interaktion"],
+    source: "07 Text zur Kitwood Blume",
+  },
+  // ── Validation ─────────────────────────────────────────────
+  {
+    topic: "Validation",
+    subtopic: "Validation nach Nicole Richard – Grundlagen",
+    content:
+      "Validation ist eine Kommunikations- und Umgangsform mit Menschen mit Demenz, die auf Wertschätzung und Empathie basiert. Integrative Validation (IVA) nach Nicole Richard baut auf der Validation nach Naomi Feil auf, ist aber stärker an der pflegerischen Praxis orientiert. Grundprinzip: Die Gefühle und Antriebe des Menschen mit Demenz werden für gültig erklärt (validiert) – nicht korrigiert oder bewertet. Ziel ist die Erhaltung von Wohlbefinden, Kommunikation und Beziehung.",
+    keywords: ["Validation", "Nicole Richard", "IVA", "Integrative Validation", "Demenz", "Wertschätzung", "Empathie"],
+    source: "10 Validation nach Nicole Richard",
+  },
+  {
+    topic: "Validation",
+    subtopic: "Gefühle und Antriebe erkennen",
+    content:
+      "In der Integrativen Validation nach Nicole Richard werden Gefühle und Antriebe als zentrale Ressourcen betrachtet. Häufige Gefühle bei Demenz: Angst, Trauer, Freude, Ärger, Sehnsucht, Scham. Häufige Antriebe: Für jemanden sorgen wollen, Ordnung schaffen, arbeiten gehen, nach Hause gehen, Kinder versorgen. Die Pflegeperson beobachtet Mimik, Gestik, Körperhaltung und Worte, um das aktuelle Gefühl oder den Antrieb zu erkennen, und spiegelt dieses wertschätzend zurück.",
+    keywords: ["Gefühle", "Antriebe", "Ressourcen", "Spiegeln", "Mimik", "Körperhaltung"],
+    source: "10 Validation nach Nicole Richard",
+  },
+  {
+    topic: "Validation",
+    subtopic: "Praxisanwendung der Integrativen Validation",
+    content:
+      "Schritte der Integrativen Validation: 1. Wahrnehmen: Was drückt der Mensch mit Demenz gerade aus? (Beobachtung von Verhalten, Mimik, Worten), 2. Gefühl/Antrieb benennen: Das erkannte Gefühl oder den Antrieb in eigene Worte fassen, 3. Validieren: Das Gefühl bestätigen und spiegeln (z.B. 'Sie machen sich Sorgen', 'Das ist Ihnen wichtig'), 4. Allgemeine Worte nutzen: Sprichwörter, Lebensweisheiten, allgemein gültige Aussagen, die das Gefühl bestätigen. Nicht korrigieren, nicht in die Realität zurückholen, nicht konfrontieren. Die Beziehungsebene steht im Vordergrund.",
+    keywords: ["Praxis", "Schritte", "Spiegeln", "Sprichwörter", "Beziehungsebene", "Wahrnehmen"],
+    source: "11 Validation nach Nicole Richard (Fortsetzung)",
+  },
+  {
+    topic: "Validation",
+    subtopic: "Validation vs. Realitätsorientierung",
+    content:
+      "Realitätsorientierung (ROT) versucht, Menschen mit Demenz in die aktuelle Realität zurückzuführen (z.B. 'Ihr Mann ist doch schon gestorben'). Dies kann zu Trauer, Angst und Rückzug führen. Validation akzeptiert die subjektive Wirklichkeit des Menschen mit Demenz und bestätigt die darin enthaltenen Gefühle. Beispiel: Bewohnerin sagt 'Ich muss nach Hause, die Kinder warten.' – Validation: 'Sie sorgen sich um Ihre Kinder. Das ist Ihnen sehr wichtig.' Dies vermittelt Sicherheit und reduziert Unruhe, statt Konflikte zu erzeugen.",
+    keywords: ["Realitätsorientierung", "ROT", "subjektive Wirklichkeit", "Sicherheit", "Unruhe"],
+    source: "11 Validation nach Nicole Richard (Fortsetzung)",
+  },
+  // ── Delegation ─────────────────────────────────────────────
+  {
+    topic: "Delegation",
+    subtopic: "Definition und Grundlagen",
+    content:
+      "Delegation in der Pflege bedeutet die Übertragung von ärztlichen oder pflegerischen Tätigkeiten an andere Berufsgruppen. Die Verantwortung teilt sich auf: Anordnungsverantwortung (liegt beim Delegierenden, z.B. Arzt), Durchführungsverantwortung (liegt beim Ausführenden, z.B. Pflegefachkraft oder Pflegefachassistenz). Voraussetzungen für Delegation: Die delegierte Person muss fachlich qualifiziert sein, die Tätigkeit muss delegierbar sein, es muss eine klare Anordnung vorliegen, und die Aufsicht muss gewährleistet sein.",
+    keywords: ["Delegation", "Anordnungsverantwortung", "Durchführungsverantwortung", "delegierbar", "Qualifikation"],
+    source: "Delegation",
+  },
+  {
+    topic: "Delegation",
+    subtopic: "Delegation an Pflegefachassistenz",
+    content:
+      "Pflegefachassistenten dürfen bestimmte Tätigkeiten nur auf Delegation durch Pflegefachkräfte oder Ärzte ausführen. Delegierbare Tätigkeiten (Beispiele): Vitalzeichenkontrolle, einfache Verbandswechsel, BZ-Messung, Medikamentengabe nach Anordnung, prophylaktische Maßnahmen. Nicht delegierbar: Pflegeprozessplanung, Ersteinschätzung, Bedarfsmedikation eigenständig entscheiden. Wichtig: Bei Unsicherheit muss die Pflegefachassistenz Rücksprache mit der Pflegefachkraft halten. Die Übernahme einer Tätigkeit darf abgelehnt werden, wenn die Kompetenz nicht ausreicht.",
+    keywords: ["Pflegefachassistenz", "delegierbar", "Vitalzeichen", "Rücksprache", "Ablehnung"],
+    source: "Delegation",
+  },
+  {
+    topic: "Delegation",
+    subtopic: "Rechtliche Aspekte",
+    content:
+      "Rechtliche Rahmenbedingungen der Delegation: Die Delegation muss dem Ausbildungsstand der empfangenden Person entsprechen. Bei fehlerhafter Durchführung haftet die ausführende Person für die Durchführung, die delegierende Person für die Anordnung und Aufsicht (Übernahmeverschulden bei unzureichender Qualifikation). Die 5 Ws der Delegation: Wer delegiert? Was wird delegiert? An wen? Wann? Wie ist die Rückmeldung?",
+    keywords: ["Recht", "Haftung", "Übernahmeverschulden", "5 W", "Aufsicht"],
+    source: "Delegation",
+  },
   // ── Schmerzmanagement ──────────────────────────────────────
   {
     topic: "Schmerzmanagement",

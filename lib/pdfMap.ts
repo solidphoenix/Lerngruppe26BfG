@@ -47,6 +47,32 @@ export const pdfMap: Record<string, string> = {
     "7. Lösung AB Diabetes mellitus Typ 2.pdf",
   "8 Pflege bei Diabetes mellitus Typ 2":
     "8 Pflege bei Diabetes mellitus Typ 2.pdf",
+  "01. Fallbeispiel 7C Alt werden ist nichts für Feiglinge":
+    "01. Fallbeispiel 7C Alt werden ist nichts für Feiglinge-1.pdf",
+  "02 Missverständnis bei falsch verstandener Biographiearbeit":
+    "02 Missverständnis bei falsch verstandener Biographiearbeit-1.pdf",
+  "03. Auszug Buch-Pflegefachassistenz":
+    "03. Auszug Buch-Pflegefachassistenz-1.pdf",
+  "03a Biographie vs. Biographiearbeit":
+    "03a Biographie vs. Biographiearbeit-1.pdf",
+  "03b Lebenslauf vs. Biographie Zusammenfassung":
+    "03b Lebenslauf vs. Biographie Zusammenfassung-1.pdf",
+  "05a Themenschwerpunkte der Biographiearbeit":
+    "05a Themenschwerpunkte der Biographiearbeit-1.pdf",
+  "05b Methoden und Ziele der Biografiearbeit":
+    "05b Methoden und Ziele der Biografiearbeit-1.pdf",
+  "06. Bedürfnisblume Kitwood":
+    "06. Bedürfnisblume Kitwood-1.pdf",
+  "07 Text zur Kitwood Blume":
+    "07 Text zur Kitwood Blume-1.pdf",
+  "10 Validation nach Nicole Richard":
+    "10 Validation nach Nicole Richard -1.pdf",
+  "11 Validation nach Nicole Richard (Fortsetzung)":
+    "11 Validation nach Nicole Richard .pdf",
+  "Delegation":
+    "Delegation-1.pdf",
+  "PAP LP Schmerzmanagement":
+    "PAP LP Schmerzmanagement.pdf",
   "Fieber":
     "Fieber.pdf",
   "LS 4C Herr Winterhaus (Fallbeispiel)":
@@ -66,7 +92,7 @@ export const pdfMap: Record<string, string> = {
 }
 
 const REPO_URL =
-  "https://github.com/solidphoenix/Lerngruppe26/raw/main/pdf-uploads"
+  "https://github.com/solidphoenix/Lerngruppe26BfG/raw/main/pdf-uploads"
 
 /**
  * Returns a download URL for a given display name.
