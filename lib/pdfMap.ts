@@ -91,9 +91,6 @@ export const pdfMap: Record<string, string> = {
   // ── Delegation ─────────────────────────────────────────────
   "Delegation":
     "Delegation-1.pdf",
-  // ── Schmerzmanagement ──────────────────────────────────────
-  "PAP LP Schmerzmanagement":
-    "PAP LP Schmerzmanagement.pdf",
 }
 
 const REPO_URL =

@@ -65,7 +65,6 @@ const pdfSources = {
     "11 Validation nach Nicole Richard",
   ],
   delegation: ["Delegation"],
-  schmerzmanagement: ["PAP LP Schmerzmanagement"],
 }
 
 const pdfCatalog = Array.from(new Set(Object.values(pdfSources).flat()))
@@ -156,17 +155,6 @@ const learningFields = [
       "Nicht-delegierbare Aufgaben kennen: Pflegeprozessplanung, Ersteinschätzung, Beratungsgespräche.",
     ],
     documents: pdfSources.delegation,
-  },
-  {
-    title: "Schmerzmanagement",
-    subtitle: "Schmerz erkennen, einschätzen & behandeln",
-    goals: [
-      "Schmerzarten (akut, chronisch, nozizeptiv, neuropathisch) unterscheiden.",
-      "NRS, VAS, BESD-Skala: geeignetes Assessment-Instrument wählen.",
-      "WHO-Stufenschema: Stufe 1–3 mit Beispielmedikamenten benennen.",
-      "Nicht-medikamentöse Maßnahmen: Kälte, Wärme, TENS, Lagerung, Entspannung.",
-    ],
-    documents: pdfSources.schmerzmanagement,
   },
 ]
 
@@ -305,13 +293,6 @@ const dataBacktests = [
       "Die Anordnungsverantwortung liegt bei der delegierenden Person (Arzt/Pflegefachkraft), die Durchführungsverantwortung bei der ausführenden Person.",
     source: "Delegation",
   },
-  {
-    topic: "Schmerzmanagement",
-    question: "Welche drei Stufen umfasst das WHO-Stufenschema?",
-    answer:
-      "Stufe 1: Nicht-Opioid-Analgetika (z.B. Ibuprofen, Paracetamol). Stufe 2: Schwache Opioide (z.B. Tramadol). Stufe 3: Starke Opioide (z.B. Morphin, Fentanyl).",
-    source: "PAP LP Schmerzmanagement",
-  },
 ]
 
 const flashcards = [
@@ -392,14 +373,6 @@ const flashcards = [
       "Pflegeprozessplanung, Ersteinschätzung und Beratungsgespräche, die Fachkraftqualifikation erfordern.",
     tip: "Durchführungsverantwortung liegt bei der ausführenden Person.",
     source: "Delegation",
-  },
-  {
-    title: "WHO-Stufenschema",
-    question: "Welche drei Stufen hat das WHO-Stufenschema der Schmerztherapie?",
-    answer:
-      "Stufe 1: Nicht-Opioide (Ibuprofen, Paracetamol). Stufe 2: schwache Opioide (Tramadol). Stufe 3: starke Opioide (Morphin, Fentanyl).",
-    tip: "Stufensprünge sind möglich – nicht immer bei Stufe 1 starten.",
-    source: "PAP LP Schmerzmanagement",
   },
 ]
 
@@ -491,19 +464,6 @@ const quizItems = [
     explanation:
       "Die Pflegeprozessplanung erfordert eine Fachkraftqualifikation und ist nicht delegierbar.",
   },
-  {
-    title: "Schmerzmanagement-Quiz",
-    question: "Welches Instrument wird zur Schmerzeinschätzung bei Demenz verwendet?",
-    options: [
-      "NRS (Numerische Rangskala)",
-      "VAS (Visuelle Analogskala)",
-      "BESD-Skala",
-      "Wong-Baker Smiley-Skala",
-    ],
-    answer: "C",
-    explanation:
-      "Die BESD-Skala (Beurteilung von Schmerzen bei Demenz) ermöglicht die Fremdeinschätzung durch Beobachtung.",
-  },
 ]
 
 const quickQuestions = [
@@ -544,11 +504,6 @@ const quickQuestions = [
     question: "Was unterscheidet Anordnungs- von Durchführungsverantwortung?",
     answer:
       "Anordnungsverantwortung liegt bei der delegierenden Person, Durchführungsverantwortung bei der ausführenden Person.",
-  },
-  {
-    question: "Welche Schmerzskala nutzt man bei Demenz?",
-    answer:
-      "Die BESD-Skala (Beurteilung von Schmerzen bei Demenz) – eine Fremdeinschätzung durch Beobachtung von Mimik, Atmung und Körpersprache.",
   },
 ]
 
@@ -607,7 +562,7 @@ const learningResources = [
   {
     title: "Lerntabellen",
     description:
-      "Kleine, übersichtliche Merktabellen zu Wunden, Diabetes, Thrombose, Fieber, Biographiearbeit, Kitwood, Validation, Delegation und Schmerzmanagement.",
+      "Kleine, übersichtliche Merktabellen zu Wunden, Diabetes, Thrombose, Fieber, Biographiearbeit, Kitwood, Validation und Delegation.",
     href: "/lerntabellen",
     badge: "Lerntabellen",
   },

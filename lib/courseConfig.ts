@@ -293,7 +293,6 @@ export const pflegefachassistenzCourse: CourseConfig = {
     "10 Validation nach Nicole Richard",
     "11 Validation nach Nicole Richard",
     "Delegation",
-    "PAP LP Schmerzmanagement",
   ],
   modules: {
     lerntabellen: { enabled: true, count: 10 },
