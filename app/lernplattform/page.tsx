@@ -47,6 +47,25 @@ const pdfSources = {
     "Text - Medizinischer Thromboseprophylaxestrumpf",
   ],
   fever: ["Fieber"],
+  biographiearbeit: [
+    "01. Fallbeispiel 7C Alt werden ist nichts für Feiglinge",
+    "02 Missverständnis bei falsch verstandener Biographiearbeit",
+    "03. Auszug Buch-Pflegefachassistenz",
+    "03a Biographie vs. Biographiearbeit",
+    "03b Lebenslauf vs. Biographie Zusammenfassung",
+    "05a Themenschwerpunkte der Biographiearbeit",
+    "05b Methoden und Ziele der Biografiearbeit",
+  ],
+  kitwood: [
+    "06. Bedürfnisblume Kitwood",
+    "07 Text zur Kitwood Blume",
+  ],
+  validation: [
+    "10 Validation nach Nicole Richard",
+    "11 Validation nach Nicole Richard",
+  ],
+  delegation: ["Delegation"],
+  schmerzmanagement: ["PAP LP Schmerzmanagement"],
 }
 
 const pdfCatalog = Array.from(new Set(Object.values(pdfSources).flat()))
@@ -94,6 +113,60 @@ const learningFields = [
       "Maßnahmen: Vitalzeichen, Wadenwickel, Waschungen, Flüssigkeit.",
     ],
     documents: pdfSources.fever,
+  },
+  {
+    title: "Biographiearbeit",
+    subtitle: "Lebensgeschichte verstehen & individuell pflegen",
+    goals: [
+      "Biographie von Biographiearbeit abgrenzen, Lebenslauf vs. Biographie erklären.",
+      "Missverständnisse vermeiden: keine Fragebögen abarbeiten, Freiwilligkeit achten.",
+      "Themenschwerpunkte: Kindheit, Rituale, Lebensereignisse, Vorlieben & Ängste.",
+      "Methoden: biographische Gespräche, Erinnerungspflege, Lebensbücher nutzen.",
+    ],
+    documents: pdfSources.biographiearbeit,
+  },
+  {
+    title: "Personenzentrierter Ansatz (Kitwood)",
+    subtitle: "Bedürfnisblume & Demenzpflege",
+    goals: [
+      "Die fünf Blütenblätter der Kitwood-Blume benennen: Trost, Bindung, Einbeziehung, Beschäftigung, Identität.",
+      "Grundbedürfnis Liebe im Zentrum des Modells verstehen.",
+      "Maligne Sozialpsychologie erkennen (Infantilisieren, Ignorieren, Etikettieren).",
+      "Positive Interaktionen anwenden: Anerkennen, Verhandeln, Zusammenarbeiten.",
+    ],
+    documents: pdfSources.kitwood,
+  },
+  {
+    title: "Validation nach Nicole Richard",
+    subtitle: "Integrative Validation für Menschen mit Demenz",
+    goals: [
+      "Grundprinzip: Gefühle und Antriebe validieren statt in Realität zurückholen.",
+      "Drei Schritte: Beobachten, Benennen/Validieren, Lebensthemen nutzen.",
+      "Unterschied IVA (Nicole Richard) vs. Validation nach Naomi Feil kennen.",
+      "Ziele: Wohlbefinden steigern, Unruhe reduzieren, Beziehung stärken.",
+    ],
+    documents: pdfSources.validation,
+  },
+  {
+    title: "Delegation",
+    subtitle: "Aufgaben übertragen & Verantwortung klären",
+    goals: [
+      "Anordnungsverantwortung (delegierende Person) vs. Durchführungsverantwortung (ausführende Person) unterscheiden.",
+      "Voraussetzungen für Delegation: Aufgabe delegierbar, Person qualifiziert, Kontrolle gesichert.",
+      "Nicht-delegierbare Aufgaben kennen: Pflegeprozessplanung, Ersteinschätzung, Beratungsgespräche.",
+    ],
+    documents: pdfSources.delegation,
+  },
+  {
+    title: "Schmerzmanagement",
+    subtitle: "Schmerz erkennen, einschätzen & behandeln",
+    goals: [
+      "Schmerzarten (akut, chronisch, nozizeptiv, neuropathisch) unterscheiden.",
+      "NRS, VAS, BESD-Skala: geeignetes Assessment-Instrument wählen.",
+      "WHO-Stufenschema: Stufe 1–3 mit Beispielmedikamenten benennen.",
+      "Nicht-medikamentöse Maßnahmen: Kälte, Wärme, TENS, Lagerung, Entspannung.",
+    ],
+    documents: pdfSources.schmerzmanagement,
   },
 ]
 
@@ -190,6 +263,55 @@ const dataBacktests = [
       "5 am Tag, Vollkorn, rund 1,5 Liter Wasser/Tag, Zucker sparen und max. 300–600 g Fleisch/Woche.",
     source: "2. Die 10 Regeln der DGE",
   },
+  {
+    topic: "Biographiearbeit",
+    question: "Was unterscheidet Biographie von Biographiearbeit?",
+    answer:
+      "Die Biographie ist die Lebensgeschichte einer Person. Biographiearbeit ist die professionelle pflegerische Methode, diese Lebensgeschichte für die individuelle Pflege zu nutzen.",
+    source: "03a Biographie vs. Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    question: "Welche Themenschwerpunkte umfasst die Biographiearbeit?",
+    answer:
+      "Kindheit und Jugend, Familie, Beruf, Gewohnheiten und Rituale, religiöse und kulturelle Prägung, bedeutsame Lebensereignisse, Vorlieben, Ängste und Wünsche.",
+    source: "05a Themenschwerpunkte der Biographiearbeit",
+  },
+  {
+    topic: "Kitwood",
+    question: "Welche fünf Bedürfnisse zeigt die Kitwood-Blume?",
+    answer:
+      "Trost (Comfort), Bindung (Attachment), Einbeziehung (Inclusion), Beschäftigung (Occupation), Identität (Identity) – im Zentrum steht Liebe.",
+    source: "06. Bedürfnisblume Kitwood",
+  },
+  {
+    topic: "Kitwood",
+    question: "Was versteht man unter maligner Sozialpsychologie?",
+    answer:
+      "Negative Interaktionen mit demenzkranken Menschen wie Infantilisieren, Ignorieren, Zwingen oder Etikettieren, die das Wohlbefinden schädigen.",
+    source: "07 Text zur Kitwood Blume",
+  },
+  {
+    topic: "Validation",
+    question: "Was ist das Grundprinzip der Integrativen Validation nach Nicole Richard?",
+    answer:
+      "Gefühle und Antriebe des demenzkranken Menschen werden wahrgenommen, ernst genommen und bestätigt (validiert), anstatt ihn in die Realität zurückzuholen.",
+    source: "10 Validation nach Nicole Richard",
+  },
+  {
+    topic: "Delegation",
+    question: "Wer trägt die Anordnungs- und wer die Durchführungsverantwortung?",
+    answer:
+      "Die Anordnungsverantwortung liegt bei der delegierenden Person (Arzt/Pflegefachkraft), die Durchführungsverantwortung bei der ausführenden Person.",
+    source: "Delegation",
+  },
+  {
+    topic: "Schmerzmanagement",
+    question: "Welche drei Stufen umfasst das WHO-Stufenschema?",
+    answer:
+      "Stufe 1: Nicht-Opioid-Analgetika (z.B. Ibuprofen, Paracetamol). Stufe 2: Schwache Opioide (z.B. Tramadol). Stufe 3: Starke Opioide (z.B. Morphin, Fentanyl).",
+    source: "PAP LP Schmerzmanagement",
+  },
 ]
 
 const flashcards = [
@@ -239,6 +361,46 @@ const flashcards = [
     tip: "Temperatur und Vitalzeichen dokumentieren.",
     source: "Fieber",
   },
+  {
+    title: "Biographie vs. Biographiearbeit",
+    question: "Wie grenzt sich Biographiearbeit von der Biographie ab?",
+    answer:
+      "Die Biographie ist die Lebensgeschichte; Biographiearbeit ist die professionelle Methode, diese für die individuelle Pflege einzusetzen.",
+    tip: "Lebenslauf = objektive Daten, Biographie = subjektive Erlebnisse.",
+    source: "03a Biographie vs. Biographiearbeit",
+  },
+  {
+    title: "Kitwood-Blume",
+    question: "Welche fünf Bedürfnisse nennt das Kitwood-Modell?",
+    answer:
+      "Trost, Bindung, Einbeziehung, Beschäftigung und Identität – Liebe steht im Zentrum.",
+    tip: "Merke: Trost-Bindung-Einbeziehung-Beschäftigung-Identität.",
+    source: "06. Bedürfnisblume Kitwood",
+  },
+  {
+    title: "Integrative Validation",
+    question: "Wie funktioniert die Validation nach Nicole Richard?",
+    answer:
+      "Gefühle und Antriebe beobachten, benennen und bestätigen; an allgemeine Lebensthemen anknüpfen.",
+    tip: "Nicht korrigieren – validieren!",
+    source: "10 Validation nach Nicole Richard",
+  },
+  {
+    title: "Delegation in der Pflege",
+    question: "Welche Aufgaben sind nicht delegierbar?",
+    answer:
+      "Pflegeprozessplanung, Ersteinschätzung und Beratungsgespräche, die Fachkraftqualifikation erfordern.",
+    tip: "Durchführungsverantwortung liegt bei der ausführenden Person.",
+    source: "Delegation",
+  },
+  {
+    title: "WHO-Stufenschema",
+    question: "Welche drei Stufen hat das WHO-Stufenschema der Schmerztherapie?",
+    answer:
+      "Stufe 1: Nicht-Opioide (Ibuprofen, Paracetamol). Stufe 2: schwache Opioide (Tramadol). Stufe 3: starke Opioide (Morphin, Fentanyl).",
+    tip: "Stufensprünge sind möglich – nicht immer bei Stufe 1 starten.",
+    source: "PAP LP Schmerzmanagement",
+  },
 ]
 
 const quizItems = [
@@ -282,6 +444,66 @@ const quizItems = [
     answer: "C",
     explanation: "Fieber beginnt ab 38 °C Körpertemperatur.",
   },
+  {
+    title: "Biographiearbeit-Quiz",
+    question: "Was ist ein häufiger Fehler bei der Biographiearbeit?",
+    options: [
+      "Erinnerungen respektvoll begleiten",
+      "Einen Fragebogen abarbeiten und Daten sammeln",
+      "Biographisches Gespräch freiwillig gestalten",
+      "Individuelle Pflegeplanung daraus ableiten",
+    ],
+    answer: "B",
+    explanation:
+      "Biographiearbeit ist kein Fragebogen – sie muss einfühlsam, respektvoll und freiwillig stattfinden.",
+  },
+  {
+    title: "Kitwood-Quiz",
+    question: "Was steht im Zentrum der Kitwood-Bedürfnisblume?",
+    options: ["Identität", "Liebe", "Trost", "Beschäftigung"],
+    answer: "B",
+    explanation:
+      "Im Zentrum der Bedürfnisblume nach Tom Kitwood steht das Grundbedürfnis nach Liebe.",
+  },
+  {
+    title: "Validation-Quiz",
+    question: "Was ist das Ziel der Integrativen Validation nach Nicole Richard?",
+    options: [
+      "Den demenzkranken Menschen in die Realität zurückholen",
+      "Gefühle und Antriebe wahrnehmen und bestätigen",
+      "Verhaltenstherapie durchführen",
+      "Biographische Daten systematisch erheben",
+    ],
+    answer: "B",
+    explanation:
+      "Die IVA validiert Gefühle und Antriebe, anstatt den Menschen zu korrigieren oder in die Realität zurückzuführen.",
+  },
+  {
+    title: "Delegation-Quiz",
+    question: "Welche Aufgabe ist NICHT delegierbar?",
+    options: [
+      "Blutdruckmessung",
+      "Pflegeprozessplanung",
+      "Blutzuckermessung",
+      "Grundpflege",
+    ],
+    answer: "B",
+    explanation:
+      "Die Pflegeprozessplanung erfordert eine Fachkraftqualifikation und ist nicht delegierbar.",
+  },
+  {
+    title: "Schmerzmanagement-Quiz",
+    question: "Welches Instrument wird zur Schmerzeinschätzung bei Demenz verwendet?",
+    options: [
+      "NRS (Numerische Rangskala)",
+      "VAS (Visuelle Analogskala)",
+      "BESD-Skala",
+      "Wong-Baker Smiley-Skala",
+    ],
+    answer: "C",
+    explanation:
+      "Die BESD-Skala (Beurteilung von Schmerzen bei Demenz) ermöglicht die Fremdeinschätzung durch Beobachtung.",
+  },
 ]
 
 const quickQuestions = [
@@ -302,6 +524,31 @@ const quickQuestions = [
   {
     question: "Was ist die erste Maßnahme bei Verdacht auf Thrombose?",
     answer: "Arzt informieren und Bettruhe einhalten.",
+  },
+  {
+    question: "Welche Methoden eignen sich für Biographiearbeit?",
+    answer:
+      "Biographische Gespräche, Erinnerungspflege mit Fotos und Gegenständen, Erzählcafés und Lebensbücher.",
+  },
+  {
+    question: "Welche fünf Bedürfnisse zeigt die Kitwood-Blume?",
+    answer:
+      "Trost, Bindung, Einbeziehung, Beschäftigung und Identität – im Zentrum steht Liebe.",
+  },
+  {
+    question: "Wie funktioniert die Integrative Validation?",
+    answer:
+      "Gefühle und Antriebe beobachten, benennen und bestätigen; an allgemeine Lebensthemen anknüpfen.",
+  },
+  {
+    question: "Was unterscheidet Anordnungs- von Durchführungsverantwortung?",
+    answer:
+      "Anordnungsverantwortung liegt bei der delegierenden Person, Durchführungsverantwortung bei der ausführenden Person.",
+  },
+  {
+    question: "Welche Schmerzskala nutzt man bei Demenz?",
+    answer:
+      "Die BESD-Skala (Beurteilung von Schmerzen bei Demenz) – eine Fremdeinschätzung durch Beobachtung von Mimik, Atmung und Körpersprache.",
   },
 ]
 
@@ -360,7 +607,7 @@ const learningResources = [
   {
     title: "Lerntabellen",
     description:
-      "Kleine, übersichtliche Merktabellen zu Wunden, Diabetes, Thrombose und Fieber.",
+      "Kleine, übersichtliche Merktabellen zu Wunden, Diabetes, Thrombose, Fieber, Biographiearbeit, Kitwood, Validation, Delegation und Schmerzmanagement.",
     href: "/lerntabellen",
     badge: "Lerntabellen",
   },

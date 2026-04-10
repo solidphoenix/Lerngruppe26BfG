@@ -436,6 +436,90 @@ export const pdfKnowledge: KnowledgeEntry[] = [
     keywords: ["interprofessionell", "Zusammenarbeit", "Schmerzkonferenz", "Physiotherapie", "Psychologe", "Team"],
     source: "PAP LP Schmerzmanagement",
   },
+  // ── Biographiearbeit ───────────────────────────────────────
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Definition und Abgrenzung",
+    content:
+      "Biographiearbeit ist eine systematische pflegerische Methode, bei der die Lebensgeschichte eines Menschen gezielt erfasst und für die Pflege genutzt wird. Sie unterscheidet sich von der Biographie selbst: Die Biographie ist die Lebensgeschichte einer Person, während Biographiearbeit die professionelle Auseinandersetzung damit für die individuelle Pflegeplanung ist. Ein Lebenslauf listet objektive Daten (Geburtstag, Beruf, Familienstand), die Biographie umfasst subjektive Erlebnisse, Werte und Prägungen.",
+    keywords: ["Biographiearbeit", "Biographie", "Lebenslauf", "Lebensgeschichte", "Pflege"],
+    source: "03a Biographie vs. Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Missverständnisse",
+    content:
+      "Falsch verstandene Biographiearbeit: Biographiearbeit bedeutet nicht, einfach einen Fragebogen abzuarbeiten oder Daten zu sammeln. Häufige Fehler sind das Ausfragen der Person, das Erzwingen von Erinnerungen und das Ignorieren von schmerzhaften Erlebnissen. Biographiearbeit muss einfühlsam, respektvoll und freiwillig stattfinden. Sie dient nicht der Neugier, sondern der Verbesserung der individuellen Pflege.",
+    keywords: ["Missverständnis", "Fehler", "Einfühlung", "Freiwilligkeit", "Fragebogen"],
+    source: "02 Missverständnis bei falsch verstandener Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Themenschwerpunkte",
+    content:
+      "Themenschwerpunkte der Biographiearbeit umfassen: Kindheit und Jugend, Familie und soziale Beziehungen, Beruf und Arbeitsleben, Wohnsituation und Heimat, Gewohnheiten und Rituale, religiöse und kulturelle Prägung, bedeutsame Lebensereignisse (Krieg, Flucht, Verluste), Vorlieben und Abneigungen, Hobbys und Interessen, Ängste und Wünsche. Diese Informationen helfen, die Pflege individuell zu gestalten.",
+    keywords: ["Themenschwerpunkte", "Kindheit", "Gewohnheiten", "Rituale", "Lebensereignisse"],
+    source: "05a Themenschwerpunkte der Biographiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Methoden und Ziele",
+    content:
+      "Methoden der Biographiearbeit: Biographische Gespräche, Erinnerungspflege mit Fotos und Gegenständen, Erzählcafés, Lebensbücher, kreative Methoden (Malen, Musik). Ziele: Individuelle Pflegeplanung ermöglichen, Vertrauen und Beziehung aufbauen, Identität und Selbstwertgefühl stärken, herausforderndes Verhalten verstehen und darauf eingehen, Aktivierung und Orientierung fördern, Ressourcen des Menschen erkennen und nutzen.",
+    keywords: ["Methoden", "Ziele", "Erinnerungspflege", "Lebensbuch", "Aktivierung", "Ressourcen"],
+    source: "05b Methoden und Ziele der Biografiearbeit",
+  },
+  {
+    topic: "Biographiearbeit",
+    subtopic: "Fallbeispiel Alt werden",
+    content:
+      "Das Fallbeispiel '7C Alt werden ist nichts für Feiglinge' zeigt die Bedeutung der Biographiearbeit in der Altenpflege. Ältere Menschen bringen eine reiche Lebensgeschichte mit, die ihre aktuellen Bedürfnisse, Ängste und Verhaltensweisen prägt. Ohne Kenntnis der Biographie können Pflegende Reaktionen falsch interpretieren. Das Wissen um Kriegserfahrungen, Verluste oder prägende Erlebnisse ermöglicht einen einfühlsamen und angemessenen Umgang.",
+    keywords: ["Fallbeispiel", "Altenpflege", "Kriegserfahrung", "Verhaltensweisen", "einfühlsam"],
+    source: "01. Fallbeispiel 7C Alt werden ist nichts für Feiglinge",
+  },
+  // ── Personenzentrierter Ansatz (Kitwood) ───────────────────
+  {
+    topic: "Personenzentrierter Ansatz",
+    subtopic: "Kitwood Bedürfnisblume",
+    content:
+      "Tom Kitwood entwickelte das Modell der Bedürfnisblume (auch Kitwood-Blume) für die personenzentrierte Pflege von Menschen mit Demenz. Im Zentrum steht das Grundbedürfnis nach Liebe. Die fünf Blütenblätter repräsentieren: 1. Trost (Comfort) – Nähe, Beruhigung, Sicherheit, 2. Bindung (Attachment) – vertrauensvolle Beziehungen, 3. Einbeziehung (Inclusion) – Teilhabe am sozialen Leben, 4. Beschäftigung (Occupation) – sinnvolle Aktivitäten, 5. Identität (Identity) – Wissen, wer man ist, Lebenslauf beachten.",
+    keywords: ["Kitwood", "Bedürfnisblume", "personenzentriert", "Demenz", "Trost", "Bindung", "Einbeziehung", "Beschäftigung", "Identität"],
+    source: "06. Bedürfnisblume Kitwood",
+  },
+  {
+    topic: "Personenzentrierter Ansatz",
+    subtopic: "Personenzentrierte Pflege nach Kitwood",
+    content:
+      "Die personenzentrierte Pflege nach Kitwood stellt den Menschen mit Demenz als Person in den Mittelpunkt – nicht die Krankheit. Grundannahmen: Jeder Mensch hat das Bedürfnis nach Anerkennung und Wertschätzung, auch bei fortgeschrittener Demenz. Das Personsein muss aktiv erhalten werden (Personhood). Negative Interaktionen (maligne Sozialpsychologie) wie Infantilisieren, Ignorieren, Zwingen oder Etikettieren schaden dem Wohlbefinden. Positive Interaktionen: Anerkennen, Verhandeln, Zusammenarbeiten, Spielen, Feiern, Entspannen. Die Pflege soll Biographiewissen einbeziehen und die fünf Bedürfnisse der Kitwood-Blume berücksichtigen.",
+    keywords: ["personenzentriert", "Kitwood", "Personsein", "Personhood", "maligne Sozialpsychologie", "Demenz", "Wertschätzung"],
+    source: "07 Text zur Kitwood Blume",
+  },
+  // ── Validation ─────────────────────────────────────────────
+  {
+    topic: "Validation",
+    subtopic: "Grundlagen nach Nicole Richard",
+    content:
+      "Die Integrative Validation (IVA) nach Nicole Richard ist eine Kommunikations- und Umgangsmethode für Menschen mit Demenz. Im Unterschied zur Validation nach Naomi Feil richtet sich die IVA gezielt an die Praxis in der Altenpflege. Grundprinzip: Die Gefühle und Antriebe des demenzkranken Menschen werden wahrgenommen, ernst genommen und bestätigt (validiert). Es geht nicht darum, den Menschen in die Realität zurückzuholen, sondern seine innere Erlebenswelt zu respektieren und zu begleiten.",
+    keywords: ["Validation", "Nicole Richard", "IVA", "Integrative Validation", "Demenz", "Gefühle", "Kommunikation"],
+    source: "10 Validation nach Nicole Richard",
+  },
+  {
+    topic: "Validation",
+    subtopic: "Methodik und Anwendung",
+    content:
+      "Vorgehen bei der Integrativen Validation: 1. Beobachten: Gefühle und Antriebe des Menschen wahrnehmen (z.B. Unruhe, Angst, Freude, Fürsorge). 2. Benennen und Validieren: Das wahrgenommene Gefühl oder den Antrieb sprachlich bestätigen ('Sie sorgen sich', 'Das ist Ihnen wichtig'). 3. Allgemeine Lebensthemen nutzen: An bekannte Erfahrungen anknüpfen (z.B. Arbeit, Familie, Fürsorge). Ziele: Wohlbefinden steigern, Angst und Unruhe reduzieren, Beziehung stärken, herausforderndes Verhalten verstehen und mildern. Validation ersetzt keine Therapie, ist aber ein wertvolles Werkzeug im Pflegealltag.",
+    keywords: ["Methodik", "Gefühle benennen", "Antriebe", "Lebensthemen", "Wohlbefinden", "Unruhe"],
+    source: "11 Validation nach Nicole Richard",
+  },
+  // ── Delegation ─────────────────────────────────────────────
+  {
+    topic: "Delegation",
+    subtopic: "Grundlagen und Verantwortung",
+    content:
+      "Delegation in der Pflege bedeutet die Übertragung von ärztlichen oder pflegerischen Tätigkeiten an andere Berufsgruppen oder Assistenzkräfte. Wichtige Grundsätze: Die Anordnungsverantwortung liegt bei der delegierenden Person (Arzt oder Pflegefachkraft), die Durchführungsverantwortung bei der ausführenden Person. Voraussetzungen für Delegation: Die Aufgabe muss delegierbar sein, die ausführende Person muss qualifiziert und eingewiesen sein, Überwachung und Kontrolle müssen gewährleistet sein. Nicht delegierbar sind: Pflegeprozessplanung, Ersteinschätzung, Beratungsgespräche und Entscheidungen, die eine Fachkraftqualifikation erfordern.",
+    keywords: ["Delegation", "Anordnungsverantwortung", "Durchführungsverantwortung", "delegierbar", "Qualifikation"],
+    source: "Delegation",
+  },
 ]
 
 /**
